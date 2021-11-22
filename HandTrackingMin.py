@@ -22,3 +22,4 @@ while True:
             mpDraw.draw_landmarks(img, handLms)
 
     cv2.imshow("Image", img)    # display captured video on screen
+    cv2.waitKey(1)
